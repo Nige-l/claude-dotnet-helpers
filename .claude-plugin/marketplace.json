@@ -1,0 +1,14 @@
+{
+  "name": "claude-dotnet-helpers",
+  "owner": {
+    "name": "Nigel Johnson"
+  },
+  "plugins": [
+    {
+      "name": "dotnet-helpers",
+      "description": ".NET build, test, and cleanup tools for Claude Code — build projects, run tests, kill orphaned compiler processes, and parse build errors",
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "dotnet-helpers",
+  "description": ".NET build, test, and cleanup tools for Claude Code — build projects, run tests, kill orphaned compiler processes, and parse build errors into structured JSON.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Nigel Johnson"
+  },
+  "keywords": [
+    "dotnet",
+    "csharp",
+    "build",
+    "test",
+    "msbuild",
+    "compiler"
+  ]
+}
