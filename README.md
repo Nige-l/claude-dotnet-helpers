@@ -110,6 +110,15 @@ This loads the plugin for a single session without installing it globally.
 }
 ```
 
+## Skills
+
+| Skill | Description |
+|-------|-------------|
+| `/dotnet-helpers:setup` | Check and install .NET 8+, jq, and bun dependencies |
+| `/dotnet-helpers:build` | Build a .NET project and get structured error analysis with fix-order recommendations |
+| `/dotnet-helpers:test` | Run .NET tests and get structured pass/fail results |
+| `/dotnet-helpers:cleanup` | Kill orphaned VBCSCompiler and MSBuild processes to reclaim memory |
+
 ## Error Categories
 
 The `analyze_errors` tool recognises common error codes and adds a `hint` field:
